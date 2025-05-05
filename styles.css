@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    }
+    header {
+    background-color: #6f7479;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-image: url(fisica.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 300px;
+    height: 250px;
+    
+    }
+    nav {
+    background-color: #81858a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    }
+    nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    .container {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    }
+    main {
+    flex: 3;
+    padding-right: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    aside {
+    flex: 1;
+    background-color: #eef3f7;
+    padding: 20px;
+    }
+    h1, h2 {
+    color: #393e42;
+    }
+    footer {
+    background-color: #636a70;
+    
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    }
+    .search-bar {
+    margin: 20px auto;
+    text-align: center;
+    }
+    .search-bar input {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    }
+    .search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #575e64;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
